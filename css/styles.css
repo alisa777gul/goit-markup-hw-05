@@ -734,7 +734,9 @@ font-weight: 500;
     margin-bottom: 16px;
 }
 
-
+.modal-field-icon{
+    margin-bottom: 8px;
+}
 
 .modal-input{
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -813,7 +815,11 @@ textarea:focus {
 }
 
 .modal-input-icon{
-    position: relative;
+     position: relative; 
+}
+
+.icon-checked {
+    display: inline-flex;
 }
 
 .icon-user{
@@ -830,7 +836,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         line-height: 1.17;
         letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    color:#8e8f99;
+    
     padding: 8px 16px;
 }
 
@@ -903,6 +909,3 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 margin-bottom: 24px;
 }
 
-.icon-checked{
-    display: inline-flex;
-}
