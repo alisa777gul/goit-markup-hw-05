@@ -575,7 +575,7 @@ margin-right: 120px;
     flex-direction:row;
  
     align-items: center;
-
+gap: 24px;
 }
 
  .form-button {
@@ -586,11 +586,11 @@ margin-right: 120px;
                 flex-direction: row;
                 gap: 16px;
              font-size: inherit;
-                    cursor: pointer;
-                   
+                    
+                font-family: "Roboto", sans-serif;
                     border-radius: 4px;
                         padding: 8px 24px;
-                        width: 165px;
+                        min-width: 165px;
                         height: 40px;
                         background: #4d5ae5;
                 border: none;
@@ -600,25 +600,25 @@ margin-right: 120px;
                     letter-spacing: 0.04em;
                     text-align: center;
                     color: #fff;
-                 
+                 cursor: pointer;
                     justify-content: center;
-                    margin-top: 36px
+                 
                  
         }
 
         
 
 .form-label {
-    display: flex;
-    flex-direction: column;
+
 font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;}
+    color: #fff;
+margin-bottom: 16px;}
 
  .email-class{
-         
+        
             border: 1px solid #fff;
                 border-radius: 4px;
                 width: 264px;
@@ -628,8 +628,9 @@ font-weight: 500;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
- 
+ padding-left: 16px;
      background-color: transparent;
+     color: #fff;
         }
 
 .email-class::placeholder{color: #fff;
@@ -645,13 +646,12 @@ fill: #fff;
                 }
 
 .email-class{
-    margin-top: 16px;
-    margin-right: 24px;
+   
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
-    padding: 8px 212px 8px 16px;
+   
 }
 
 
