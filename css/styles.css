@@ -873,7 +873,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        display: flex;
+ 
         align-items: center;
 }
 
@@ -908,3 +908,45 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 margin-bottom: 24px;
 }
 
+
+.modal-overlay {}
+
+.modal {}
+
+.button-modal {}
+
+.icon-close {}
+
+.text-modal {}
+
+.modal-form {}
+
+.modal-field-icon {}
+
+.modal-label {}
+
+.modal-input-icon {}
+
+.modal-input {}
+
+.icon-user {}
+
+.text_comment {}
+
+.text-area {}
+
+.check-div {}
+
+.check {}
+
+.visually-hidden {}
+
+.modal-label-text {}
+
+.icon-checked {}
+
+.icon-footer {}
+
+.privacy {}
+
+.btn-modal {}
