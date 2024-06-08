@@ -790,7 +790,7 @@ textarea{
         width: 100%;
      outline: transparent;
         background-color: transparent;
-        margin-bottom: 18px;
+        
         height: 120px;
         font-size: 12px;
         line-height: 1.17;
@@ -820,9 +820,7 @@ textarea:focus {
      position: relative; 
 }
 
-.icon-checked {
-    display: inline-flex;
-}
+
 
 .icon-user{
 position: absolute;
@@ -881,8 +879,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-label-text .icon-checked{
     display: inline-flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     border-radius: 2px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         width: 16px;
